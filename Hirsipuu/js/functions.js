@@ -28,7 +28,7 @@ const newGame = () => {
 }
 
 const win = () => {
-    alert(`You have guessed right, the word is ${randomizedWord}. Arvausten määrä: ${guesses}`)
+    alert(`You have guessed right, the word is ${randomizedWord}.\nNumber of guesses: ${guesses}`)
     guesses = 0
     newGame()
 }
